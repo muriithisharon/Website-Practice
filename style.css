@@ -1,8 +1,10 @@
 .Parent-container{
     padding: 20px;
-    margin: 0 auto;
+    margin: 30px;
     border-radius: none;
-    border:none;
+    border:1px solid;
+    width: 80%;
+    margin: 0 auto;
 
 }
 header{
@@ -25,15 +27,16 @@ nav ul li{
     font-size: 15px;
 }
 #p2{
-    font-size: 80px;
+    font-size: 30px;
     font-family: Arial, ;
 }
 #p3{
-    font-size: 30px;
+    font-size: 20px;
 }
 .number-container{
     display: flex;
     gap: 30px;
+    margin-top: 90px;
     
 }
 .number-text{
@@ -57,7 +60,7 @@ nav ul li{
 }
 .text1{
     border:none;
-    margin-left: 200px;
+    margin-left: 100px;
     width: 700px;
     padding-left: 0px;
 }
@@ -144,7 +147,7 @@ nav ul li{
 .text3{
     border: none;
     width: 700px;
-    margin-left: 150px;
+    margin-left: 100px;
 
 }
 .child-container5{
@@ -158,6 +161,7 @@ nav ul li{
     width: 700px;
     padding-left: 0px;
     font-size: 24px;
+    
 }
 .image4{
     width: 300px;
@@ -177,6 +181,7 @@ nav ul li{
         grid-template-columns: repeat(4,1fr);
         gap: 20px;
         justify-content: space-evenly;
+        margin-left: 100px;
     }
     .footer div{
         text-align: center;
@@ -242,4 +247,31 @@ nav ul li{
     margin-bottom: 40px;
     padding-left: 200px; 
 
+}
+.art{
+        display: flex;
+        gap: 10px;
+        border: none;
+        padding: 10px;
+}
+#best-seller{
+margin-left: 200px;
+}
+#start{
+    padding: 30px;
+    border-radius: 50px;
+    background: rgb(39, 38, 38);
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+}
+.video{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.copyright{
+    margin-left: 100px;
+    
 }
