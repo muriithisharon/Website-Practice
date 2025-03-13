@@ -2,7 +2,7 @@
     padding: 20px;
     margin: 30px;
     border-radius: none;
-    border:1px solid;
+    border:none;
     width: 80%;
     margin: 0 auto;
 
@@ -246,6 +246,7 @@ nav ul li{
     height: auto;
     margin-bottom: 40px;
     padding-left: 200px; 
+    border-radius: 20px;
 
 }
 .art{
